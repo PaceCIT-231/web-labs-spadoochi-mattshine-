@@ -88,11 +88,7 @@ nav li:hover {
     background-color: purple;
 }
 
-main {
 
-columns: 100px 2;
-
-}
 
 footer {
 
@@ -107,4 +103,15 @@ footer {
     width: 80%;
     margin: auto;
 
+}
+
+.flexbox{
+
+    display: flex;
+  
+}
+
+#paddingflex {
+
+    padding-right: 10px;
 }
