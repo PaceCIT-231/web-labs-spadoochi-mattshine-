@@ -1,6 +1,9 @@
-*{background-color:#737373;color:#ffffff;font-family:Verdana;}
+html {background-color:#737373;}
+*{color: black; font-family:Verdana;}
 
-
+main {
+    background-image: url(../../images/unknown.png);
+}
 em {
 
 font-weight: 700;
@@ -34,7 +37,6 @@ margin: auto;
 }
 
 #header {
-    background-color: black;
     width: 100%;
     margin: auto;
     
@@ -49,7 +51,7 @@ nav {
   }
   nav li {
     display: inline-block;
-    background-color: black;
+  
     width: 20%;
     padding: 5px;
   }
@@ -58,7 +60,7 @@ nav {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    background-color: black;
+    
   }
   
 #bullet-list {
@@ -73,12 +75,10 @@ footer a {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    background-color: black;
-
+background-color: gray;
 }
 
 #header_padding {
-    background-color: black; 
     width: 100%; 
     padding: 10px 0px;
 }
@@ -90,18 +90,18 @@ nav li:hover {
 
 
 
-footer {
+/*footer {
 
     position: fixed;
     bottom: 0px;
 
 }
-
+*/
 #header_w80 {
 
-    background-color: black;
     width: 80%;
     margin: auto;
+    background-color: gray;
 
 }
 
@@ -114,4 +114,8 @@ footer {
 #paddingflex {
 
     padding-right: 10px;
+}
+
+.floatleft {
+    float: right;
 }
