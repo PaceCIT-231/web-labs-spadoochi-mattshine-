@@ -1,121 +1,401 @@
-html {background-color:#737373;}
-*{color: black; font-family:Verdana;}
-
-main {
-    background-image: url(../../images/unknown.png);
-}
-em {
-
-font-weight: 700;
-font-style: oblique;
-
-
-}
-
-body 
-{
-width: 80%;
-margin: auto;
-}
-
-
-.centered_text {
-    text-align: center;
-    vertical-align: middle;
-    width: 100%;
-    font-weight: bold;
-
-}
-
-.centered_text_h1{
-    text-align: center;
-    vertical-align: middle;
-    width: 100%;
-    font-family: garamond;
-    font-size: 35px;
-    font-weight: bold;
-}
-
-#header {
+    html {background-color:#737373;}
+    *{color: black; font-family:Verdana;}
+    
+    main {
+        background-image: url(../../images/unknown.png);
+        column-count: 1;
+    }
+    em {
+    
+    font-weight: 700;
+    font-style: oblique;
+    
+    
+    }
+    
+    body 
+    {
     width: 100%;
     margin: auto;
+    }
     
-}
-
-
-
-nav {
-    margin-bottom: 15px;
-    text-align: center;
-
-  }
-  nav li {
-    display: inline-block;
-  
-    width: 20%;
-    padding: 5px;
-  }
-
-  nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
     
-  }
-  
-#bullet-list {
+    .centered_text {
+        text-align: center;
+        vertical-align: middle;
+        width: 100%;
+        font-weight: bold;
+    
+    }
+    
+    .centered_text_h1{
+        text-align: center;
+        vertical-align: middle;
+        width: 100%;
+        font-family: garamond;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    #header {
+        width: 100%;
+        margin: auto;
+        
+    }
+    
+    
+    nav {
+        margin-bottom: 15px;
+        text-align: center;
+    
+      }
+    
+      nav li {
+        display: inline-block;
+      
+        width: 20%;
+        padding: 5px;
+      }
+    
+      nav ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        
+      }
+      
+    #bullet-list {
+    
+        list-style-image: url(https://cdn.discordapp.com/attachments/1019679825545408522/1027685556651556944/genewolfe.png);
+    
+    }
+    
+    footer a {
+    
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    background-color: gray;
+    }
+    
+    #header_padding {
+        width: 100%; 
+        padding: 10px 0px;
+    }
+    
+    nav li:hover {
+        padding: 5px;
+        background-color: purple;
+    }
+    
+    
+    
+    footer {
+    
+        position: relative;
+        bottom: 0px;
+    
+    }
+    
+    #header_w80 {
+    
+        width: 80%;
+        margin: auto;
+        background-color: gray;
+    
+    }
+    
+    .flexbox{
+    
+        display: flex;
+      
+    }
+    
+    #paddingflex {
+    
+        padding-right: 10px;
+    }
+    
+    .floatleft {
+        float: right;
+    }
 
-    list-style-image: url(https://cdn.discordapp.com/attachments/1019679825545408522/1027685556651556944/genewolfe.png);
+    img {
 
-}
+        width: 100%;
+    }
 
-footer a {
+    #newsun {
+        max-width: 318px;
+    }
 
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-background-color: gray;
-}
+    #genewolfe {
+        max-width: 70px;
+    }
 
-#header_padding {
-    width: 100%; 
-    padding: 10px 0px;
-}
+    #cerberus {
+        max-width: 305px;
+    }
 
-nav li:hover {
-    padding: 5px;
-    background-color: purple;
-}
-
-
-
-/*footer {
-
-    position: fixed;
-    bottom: 0px;
-
-}
-*/
-#header_w80 {
-
+    iframe {
+        max-width: 773px;
+        width: 100%
+    }
+@media only screen and (min-width: 760px) {
+    
+    html {background-color:#737373;}
+    *{color: black; font-family:Verdana;}
+    
+    main {
+        background-image: url(../../images/unknown.png);
+        column-count: 2;
+    }
+    em {
+    
+    font-weight: 700;
+    font-style: oblique;
+    
+    
+    }
+    
+    body 
+    {
     width: 80%;
     margin: auto;
+    }
+    
+    
+    .centered_text {
+        text-align: center;
+        vertical-align: middle;
+        width: 100%;
+        font-weight: bold;
+    
+    }
+    
+    .centered_text_h1{
+        text-align: center;
+        vertical-align: middle;
+        width: 100%;
+        font-family: garamond;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    #header {
+        width: 100%;
+        margin: auto;
+        
+    }
+    
+    
+    
+    nav {
+        margin-bottom: 15px;
+        text-align: center;
+    
+      }
+    
+      nav li {
+        display: inline-block;
+      
+        width: 20%;
+        padding: 5px;
+      }
+    
+      nav ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        
+      }
+      
+    #bullet-list {
+    
+        list-style-image: url(https://cdn.discordapp.com/attachments/1019679825545408522/1027685556651556944/genewolfe.png);
+    
+    }
+    
+    footer a {
+    
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
     background-color: gray;
+    }
+    
+    #header_padding {
+        width: 100%; 
+        padding: 10px 0px;
+    }
+    
+    nav li:hover {
+        padding: 5px;
+        background-color: purple;
+    }
+    
+    
+    
+    footer {
+    
+        position: relative;
+        bottom: 0px;
+    
+    }
+    
+    #header_w80 {
+    
+        width: 80%;
+        margin: auto;
+        background-color: gray;
+    
+    }
+    
+    .flexbox{
+    
+        display: flex;
+      
+    }
+    
+    #paddingflex {
+    
+        padding-right: 10px;
+    }
+    
+    .floatleft {
+        float: right;
+    }
 
+   
 }
 
-.flexbox{
+@media only screen and (min-width: 1200px) {
 
-    display: flex;
-  
-}
 
-#paddingflex {
 
-    padding-right: 10px;
-}
-
-.floatleft {
-    float: right;
+    html {background-color:#737373;}
+    *{color: black; font-family:Verdana;}
+    
+    main {
+        background-image: url(../../images/unknown.png);
+        column-count: 1;
+    }
+    em {
+    
+    font-weight: 700;
+    font-style: oblique;
+    
+    
+    }
+    
+    body 
+    {
+    width: 80%;
+    margin: auto;
+    }
+    
+    
+    .centered_text {
+        text-align: center;
+        vertical-align: middle;
+        width: 100%;
+        font-weight: bold;
+    
+    }
+    
+    .centered_text_h1{
+        text-align: center;
+        vertical-align: middle;
+        width: 100%;
+        font-family: garamond;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    #header {
+        width: 100%;
+        margin: auto;
+        
+    }
+    
+    
+    
+    nav {
+        margin-bottom: 15px;
+        text-align: center;
+    
+      }
+    
+      nav li {
+        display: inline-block;
+      
+        width: 20%;
+        padding: 5px;
+      }
+    
+      nav ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        
+      }
+      
+    #bullet-list {
+    
+        list-style-image: url(https://cdn.discordapp.com/attachments/1019679825545408522/1027685556651556944/genewolfe.png);
+    
+    }
+    
+    footer a {
+    
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    background-color: gray;
+    }
+    
+    #header_padding {
+        width: 100%; 
+        padding: 10px 0px;
+    }
+    
+    nav li:hover {
+        padding: 5px;
+        background-color: purple;
+    }
+    
+    
+    
+    footer {
+    
+        position: fixed;
+        bottom: 0px;
+    
+    }
+    
+    #header_w80 {
+    
+        width: 80%;
+        margin: auto;
+        background-color: gray;
+    
+    }
+    
+    .flexbox{
+    
+        display: flex;
+      
+    }
+    
+    #paddingflex {
+    
+        padding-right: 10px;
+    }
+    
+    .floatleft {
+        float: right;
+    }
 }
