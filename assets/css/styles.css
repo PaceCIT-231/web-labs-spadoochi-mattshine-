@@ -140,7 +140,41 @@
 
     iframe {
         max-width: 773px;
-        width: 100%
+        width: 100%;
+    }
+
+    td, th {
+        border: 2px solid black;
+        padding: 3px;
+        text-align: center;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    thead, th {
+        background-color: burlywood;
+        text-transform: uppercase;
+    }
+
+    tr:nth-of-type(even) {
+        background-color: lavender;
+    }
+
+    tr:nth-of-type(odd) {
+        background-color: white;
+    }
+
+
+    input, textarea {
+        display: block;
+        width: auto;
+    }
+
+    input[type=checkbox] {
+
+        display: inline-block
     }
 @media only screen and (min-width: 760px) {
     
@@ -371,7 +405,7 @@
     
     footer {
     
-        position: fixed;
+        position: relative;
         bottom: 0px;
     
     }
